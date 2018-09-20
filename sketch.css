@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #B8F9FF;
+}
+
+.grid {
+  box-sizing: content-box;
+  border:20px solid #B20064;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.squares {
+  background: white;
+}
+
+.squareBorder {
+  border: 1px solid lightgray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.controllers {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 640px;
+}
+
+button {
+  background-color: #FFF6B7;
+  padding: 10px;
+}
